@@ -10,6 +10,13 @@ import LeftTodoPanel from "@/components/home/LeftTodoPanel.vue";
 import RightMenuPanel from "@/components/home/RightMenuPanel.vue";
 
 export default {
+  mounted() {
+    document.body.style.background = "linear-gradient(90deg, rgba(255,237,247,1) 29%, rgba(0,49,100,1) 73%)";
+  },
+  destroyed() {
+    console.log("destroyed");
+    document.body.style.background = "";
+  },
   components: {
     LeftTodoPanel,
     RightMenuPanel

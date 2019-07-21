@@ -29,8 +29,11 @@ export default {
   padding-left: 85px;
   .todo_panel {
     width: 445px;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     padding: 48px 0;
   }
 }

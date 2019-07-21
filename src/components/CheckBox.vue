@@ -1,7 +1,7 @@
 <template>
   <div class="check-box">
-    <input type="checkbox" name id="now-checkbox" />
-    <label class="checkbox_label" for="now-checkbox" :style="{
+    <input type="checkbox" name :id="'checkbox' + id" />
+    <label class="checkbox_label" :for="'checkbox' + id" :style="{
         width: width + 'px',
         height: height + 'px'
       }">
@@ -13,6 +13,9 @@
 <script>
 export default {
   props: {
+    id: {
+      default: "default"
+    },
     width: {
       default: 48
     },

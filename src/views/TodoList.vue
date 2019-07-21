@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="p__todoList">
+    <h1>todoList</h1>
   </div>
 </template>
 

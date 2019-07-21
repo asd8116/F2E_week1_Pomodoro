@@ -1,9 +1,7 @@
 <template>
-  <div id="app">
-    <vue-page-transition name="fade">
-      <router-view />
-    </vue-page-transition>
-  </div>
+  <vue-page-transition id="app" name="fade">
+    <router-view />
+  </vue-page-transition>
 </template>
 
 <style lang="scss">
